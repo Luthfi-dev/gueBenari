@@ -442,6 +442,7 @@ const ReservasiLayanan = () => {
                                     time
                                       ? time.map((subTime, subIndex) => (
                                           <div
+                                            key={index}
                                             className="col-md-2 bg-app2 buttonClick"
                                             style={{
                                               border: "2px solid white",
